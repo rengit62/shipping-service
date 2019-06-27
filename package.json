@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rengit62/shipping-service/issues"
   },
-  "homepage": "https://github.com/rengit62/shipping-service#readme"
+  "homepage": "https://github.com/rengit62/shipping-service#readme",
+  "devDependencies": {
+    "sinon": "^7.3.2"
+  }
 }
