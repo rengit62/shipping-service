@@ -10,6 +10,7 @@ class ShippingController {
   }
 
   async getItemShipping(item) {
+    console.log("Ciao sono nel metodo getItemShipping della classe ShippingController");
     var shippingAmount = await productService.getProductWeight(item.id)
     if (item.type.toLowerCase() === 'overnight') {
       return shippingAmount * this.OVERNIGHT_PRICE
